@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Serenity café</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="topbar">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-tripadvisor"></a>
+  </div>
+
+  <header>
+    <h1 class="h1title">Serenity Café</h1>
+  </header>
+
+  <nav class="navbar">
+    <button class="buttonhome" onclick="window.location.href='index.html'">home</button>
+    <button class="buttonnavbar active" onclick="window.location.href='about.html'">about</button>
+    <button class="buttonnavbar" onclick="window.location.href='menu.html'">menu</button>
+    <button class="buttonnavbar" onclick="window.location.href='contact.html'">contact</button>
+  </nav>
+
+  <main>
+    <div class="pagetexts">
+      <h2 class="centertext"><span>Welcome to Serenity Café</span></h2>   
+      <p>At Serenity Café, we are passionate about creating a memorable dining experience for our guests. Our café offers a warm and inviting atmosphere, where you can relax and indulge in delicious food and beverages. Whether you're looking for a quick morning coffee, a leisurely brunch, or a delightful dinner, we have something to satisfy every palate.
+      </p>
+      <br>
+      <div class="pagetexts">
+        <p class="centertext"><span>Our Story</span></p>   
+        <p> Serenity Café was founded in 2023 by a group of friends with a shared love for great food and excellent service. With a vision to provide a gathering place where people can connect over delectable cuisine, we set out to create a café restaurant that would become a beloved local destination. Over the years, we have built a reputation for our commitment to quality, innovation, and exceptional hospitality. </p>
+      <div class="centertext">
+
+      </div>
+    </div>
+    <div class="pagetexts">
+      <p class="centertext"><span>Our Kitchen</span></p>   
+      <p> We believe in using only the finest and freshest ingredients to craft our menu. Our talented team of chefs draws inspiration from various culinary traditions to create a diverse and exciting selection of dishes. From hearty breakfast options to savory lunch items and exquisite dinner creations, each plate is thoughtfully prepared to tantalize your taste buds.</p>
+    <div class="centertext">
+      <br>
+    <p><span>Click through our dishes underneath and view our </span><a href="menu.html">menu</a>!</p>
+    </div>
+  </div>
+
+  <!--JAVASCRIPT feature-->
+
+  </section>
+  <div class="content">
+      <div class="textBox">       
+      </div>
+
+      <div class="imgBox">
+          <img src="images/breakfastplate.png" class="breakfast" width="50%" alt="breakfast">
+      </div>
+  </div>
+  <br>
+  <br>
+
+  <ul class="thumb">
+    <li><img src="images/baggles.png" width="150%" onclick="imgSlider('breakfastImages/baggles.png');"></li>
+    <li><img src="images/breakfastplate.png" width="80%" onclick="imgSlider ('breakfastImages/breakfastplate.png');"></li>
+    <li><img src="images/muffins.png" width="120%" onclick="imgSlider ('breakfastImages/muffins.png');"></li>
+  </ul>
+  </section>
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    function imgSlider(menu) {document.querySelector('.breakfast').src= menu;
+      }
+    
+  </script>
+
+  <!--End of JAVASCRIPT feature-->
+
+  <footer>
+    <div class="footer-socials-right">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-tripadvisor"></a>
+    </div> 
+  </footer>
+
+     
+</body>
+
+</html>
